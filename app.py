@@ -7,6 +7,7 @@ app = Flask(__name__)
 
 @app.route('/api/scrape', methods=['post'])
 def get_scraped_data():
+    # this function will scrape data from a website whose url is given
     data = request.get_json()
     url = data.get("url", " ")
     dict = get_scraped(url)
