@@ -1,0 +1,15 @@
+Id_main_title ='main-title'
+Id_article_body = 'article-body'
+Id_hearts = 'reaction-number-like'
+title_tag = 'h1'
+image_tag = 'img'
+subtitle_tag = 'h2'
+hashtag_class = 'mb-4 spec__tags'
+hashtag_tag = 'a'
+codes_tag = 'code'
+auther_class = "flex items-center mr-4 fw-medium crayons-link"
+auther_bio_class ='color-base-70 mb-4'
+ID_content = 'article-body'
+content_tag = 'p'
+post_tag = 'time'
+#reaction-number-like
