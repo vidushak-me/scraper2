@@ -10,8 +10,8 @@ def get_scraped_data():
     # this function will scrape data from a website whose url is given
     data = request.get_json()
     url = data.get("url", " ")
-    dict = get_scraped(url)
-    content = insert_in_database(dict)
+    article = get_scraped(url)
+    content = insert_in_database(article)
     return jsonify({'data': content})
 
 
